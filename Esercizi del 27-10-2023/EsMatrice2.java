@@ -43,10 +43,10 @@ public class EsMatrice2 {
 		for(int i = 0; i < colonne; i++) {
 			for(int j = 0; j < righe; j++) {
 				/*
-				La formula utilizza in questo caso e' la seguente: ((max - min) + 1) + min;
+					La formula utilizza in questo caso e' la seguente: ((max - min) + 1) + min;
 
-				in questo caso visto che max e min sono lo stesso numero, cioe' vogliamo numeri che vanno come nell'esempio
-				fornito dalla prof da 100 a -100 usiamo la stessa variabile, che e' la grandezza massima inserita dall'utente
+					in questo caso visto che max e min sono lo stesso numero, cioe' vogliamo numeri che vanno come nell'esempio
+					fornito dalla prof da 100 a -100 usiamo la stessa variabile, che e' la grandezza massima inserita dall'utente
 				*/
 				matrix[i][j] = random.nextInt((bound - negative_bound) + 1) + negative_bound;
 			}
@@ -63,7 +63,6 @@ public class EsMatrice2 {
 			- una stringa che serve per separare le righe
 		restituisce una stringa generata che rappresenta la matrice passata
 	 */
-	//									↓ Matrice		↓ separatore colonne	↓ separatore righe
 	public static String toString(int[][] matrice, String sepColonne, String sepRighe) {
 		// inizializzo la stringa con niente all'interno, le virgolette vuote sono ESTREMAMENTE importanti se non ci fossero il += darebbe un errore
 		// visto che la variabile sarebbe nulla
@@ -79,9 +78,9 @@ public class EsMatrice2 {
 					questo serve per far si che nella stringa alla fine della riga non ci sia anche il simbolo della divisione della colonna (oltre che quello della riga)
 					ESEMPIO: se il simbolo separatore delle colonne e' "," e quello di fine riga e' ";"
 						senza questo semplice controllo verrebbe:
-					5,1,-3,;										5,1,-3;
+					5,1,-3,;					5,1,-3;
 					1,3,2,;	 --> con il controllo invece viene -->	1,3,2;
-					3,5,-5,;										3,5,-5;
+					3,5,-5,;					3,5,-5;
 				*/
 				if(j + 1 != matrice[1].length) {
 					// aggiungi il valore della cella piu' il separatore delle colonne alla fine della stringa
