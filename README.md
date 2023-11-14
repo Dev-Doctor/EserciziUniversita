@@ -15,7 +15,7 @@ In questa _Repository_ troverai tutti gli esercizi <ins>__completi__</ins> e <in
     [Visual Studio](https://code.visualstudio.com/download) e' un'altra fantastica opzione ma va impostato apposta per programmare in _Java_, cioe' bisogna stare a scaricare i vari plugins. 
 
     __Intellij IDEA__ e' stato creato apposta per programmare in _Java_ e contiene gia' di base tutte gli utensili per programmarci, __Visual Studio__ puo' fare un po' tutto, consiglio comunque di partire da _IntelliJ IDEA_ e passare a _Visual Studio_ successivamente al massimo.
-    > [!IMPORTANT]
-    > Se vuoi scarica IntelliJ IDEA mi raccomando nella pagina del [Download](https://www.jetbrains.com/idea/download/?section=windows) scorri verso il basso e scarica la versione __COMMUNITY__ e non la __ULTIMATE__. Perche' la versione normale e' a pagamento e hai 30 giorni di prova gratuita.
+> [!IMPORTANT]
+> Se vuoi scarica IntelliJ IDEA mi raccomando nella pagina del [Download](https://www.jetbrains.com/idea/download/?section=windows) scorri verso il basso e scarica la versione __COMMUNITY__ e non la __ULTIMATE__. Perche' la versione normale e' a pagamento e hai 30 giorni di prova gratuita.
 
 - Se hai bisogno di una mano scrivimi pure', cercero' di rispondere il prima possibile. Mi raccomandi che tu segua queste semplici [regole](https://nohello.net/it/) e che ti comporti in modo educato. 
