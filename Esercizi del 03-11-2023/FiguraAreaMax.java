@@ -1,6 +1,3 @@
-package Esercizi_03_11_2023;
-
-
 import prog.io.ConsoleInputManager;
 import prog.io.ConsoleOutputManager;
 import prog.utili.Cerchio;
